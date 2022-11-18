@@ -1,3 +1,4 @@
+#This is going to be a Depth-First-Search Algorithm implemented in python for ECEN608 Fall22 programming assignment
 #Python program to print topological sorting of a DAG
 from collections import defaultdict
 

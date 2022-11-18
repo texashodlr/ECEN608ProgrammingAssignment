@@ -1,3 +1,4 @@
+#This is going to be a Kahn's Algorithm implemented in python for ECEN608 Fall22 programming assignment
 # A Python program to print topological sorting of a graph
 # using indegrees
 from collections import defaultdict
@@ -95,4 +96,3 @@ for line in graph:
 graph.close()
 print ("Following is a Topological Sort of the given graph")
 g.topologicalSort()
-# This code is contributed by Neelam Yadav

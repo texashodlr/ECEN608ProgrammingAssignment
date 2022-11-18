@@ -1,3 +1,4 @@
+#This is going to be a the DAG generating script in python for ECEN608 Fall22 programming assignment
 import random
 import math
 import graphviz
