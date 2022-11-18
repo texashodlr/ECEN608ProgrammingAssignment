@@ -1,1 +1,4 @@
-print("This line will be printed.")
+from graphGen import DAGgen
+
+DAG = DAGgen()
+test = DAG.generate()
