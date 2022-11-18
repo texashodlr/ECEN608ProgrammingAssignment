@@ -47,7 +47,7 @@ class Node:
 
 class DAGgen:
 
-    def __init__(self, numNodes=15, numLevels=6, saturationFraction=2/3):
+    def __init__(self, numNodes=9, numLevels=6, saturationFraction=2/3):
         self.numNodes = numNodes
         self.numLevels = numLevels
         self.saturationFraction = saturationFraction
@@ -55,6 +55,7 @@ class DAGgen:
     def generate(self):
         dist = self.distrubute(self.numNodes, self.numLevels, self.saturationFraction)
         print(dist)
+        print("Howdy")
         levels = self.firstPass(self.numNodes, self.numLevels, dist)
         self.secondPass(levels)
         diag.render('graph.gv', view=True)
@@ -176,3 +177,4 @@ class DAGgen:
                     else:
                         break
             initProb -= decr
+
